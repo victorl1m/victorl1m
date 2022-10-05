@@ -7,11 +7,7 @@
     <h2>Look at my projects and tell me how to improve 🍃</h2>
   </li>
 </ul>
-
 </br>
-</br>
-</br>
-
 <h1>Projects I'm working on right now 🚧</h1>
 <ul>
   <li>
@@ -20,9 +16,3 @@
   </a>
   </li>
 </ul>
-
-</br>
-</br>
-</br>
-
-[![card](https://github-readme-stats.vercel.app/api?username=trackedby&theme=white)](https://github.com/trackedby/)
