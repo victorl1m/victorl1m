@@ -12,11 +12,11 @@
 </br>
 
 
-<h3>Projects I'm working on right now 🚧</h3>
+<h1>Projects I'm working on right now 🚧</h1>
 <ul>
   <li>
   <a href="https://github.com/trackedby/pubnews">
-  <h3>PUBNEWS - News about events in the city (Website)</h3>
+  <h2>PUBNEWS - News about events in the city (Website)</h2>
   </a>
   </li>
 </ul>
