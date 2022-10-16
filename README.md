@@ -1,18 +1,25 @@
-<h1>Hi! I'm <b>Victor Lima 🩸</b></h1>
-<ul>
-  <li>
-    <h3>Currently working on my personal improvement around programming languages 😊</h2>
-  </li>
-  <li>
-    <h3>Look at my projects and tell me how to improve 🍃</h2>
-  </li>
-</ul>
-</br>
-<h1>Projects I'm working on right now 🚧</h1>
-<ul>
-  <li>
-  <a href="https://github.com/trackedby/pubnews">
-  <h3>PUBNEWS - News about events in the city (Website)</h2>
-  </a>
-  </li>
-</ul>
+<h1 align="center">Hi 👋, I'm Victor Lima</h1>
+<h3 align="center">A front-end developer searching more knowledge in UX area!</h3>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=trackedby&label=Profile%20views&color=0e75b6&style=flat" alt="trackedby" /> </p>
+
+- 🔭 I’m currently contributing on [SIGO](https://github.com/trackedby/SIGO)
+
+- 🌱 I’m currently learning **React Native, React-JS, Node-JS**
+
+- 📫 How to reach me **trackedby1@hotmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/trackedby1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="trackedby1" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/victorl1m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="victorl1m" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=trackedby&show_icons=true&locale=en&layout=compact" alt="trackedby" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=trackedby&show_icons=true&locale=en" alt="trackedby" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=trackedby&" alt="trackedby" /></p>
