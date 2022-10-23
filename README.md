@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=trackedby&label=Profile%20views&color=0e75b6&style=flat" alt="trackedby" /> </p>
 
-- 🔭 I’m currently contributing/working on [SIGO](https://github.com/trackedby/SIGO)
+- 🔭 I’m currently contributing/working on [SIGO](https://github.com/trackedby/SIGO) with my team!
 
 - 🌱 I’m currently learning **React Native, React-JS, Node-JS**
 
