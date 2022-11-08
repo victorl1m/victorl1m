@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **React Native, React-JS, Node-JS**
 
-- 📫 How to reach me **trackedby1@hotmail.com**
+- 📫 How to reach me **victorl1ma@hotmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
