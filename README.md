@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently contributing/working on [SIGO](https://github.com/trackedby/SIGO) with my team!
 
-- 🌱 I’m currently learning **React Native, React-JS, Node-JS**
+- 🌱 I’m currently learning **User Experience, React Native, React-JS, Node-JS**
 
 - 📫 How to reach me **victorl1ma@hotmail.com**
 
