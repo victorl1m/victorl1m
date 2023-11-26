@@ -1,12 +1,12 @@
-<h1 align="left">Olá 👋! Sou o Victor</h1>
+<h1 align="left">Olá! Sou o Victor 👋</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=victorl1m&label=Profile%20views&color=0e75b6&style=flat" alt="victorl1m" /> </p>
 
-- 🔭 I’m currently contributing/working on [SIGO](https://github.com/victorl1m/SIGO) with my team!
+- 🔭 Atualmente contribuindo com [PROJETOS CALLINK / RPA DEVELOPER]
 
-- 🌱 I’m currently learning **User Experience, React Native, React-JS, Node-JS**
+- 🌱 Atualmente estudando **User Experience, React Native, React-JS, Node-JS**
 
-- 📫 How to reach me **victorl1ma@hotmail.com**
+- 📫 Entre em contato comigo **victorl1ma@hotmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
