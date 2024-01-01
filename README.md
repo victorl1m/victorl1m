@@ -2,7 +2,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=victorl1m&label=Profile%20views&color=0e75b6&style=flat" alt="victorl1m" /> </p>
 
-- 🔭 Atualmente contribuindo com [PROJETOS CALLINK / RPA DEVELOPER]
+- 🔭 Atualmente contribuindo com [ANÁLISE DE DADOS / RPA DEVELOPER]
 
 - 🌱 Atualmente estudando **User Experience, React Native, React-JS, Node-JS**
 
