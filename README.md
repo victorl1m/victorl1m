@@ -1,21 +1,75 @@
-<h1 align="left">Olá! Sou o Victor 👋</h1>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=victorl1m&label=Profile%20views&color=0e75b6&style=flat" alt="victorl1m" /> </p>
-
-- 🔭 Atualmente contribuindo com [ANÁLISE DE DADOS / RPA DEVELOPER]
-
-- 🌱 Atualmente estudando **User Experience, React Native, React-JS, Node-JS**
-
-- 📫 Entre em contato comigo **victorl1ma@hotmail.com**
-
-<h3 align="left">Conecte-se comigo:</h3>
-<p align="left">
-<a href="https://twitter.com/trackedby1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="victorl1m" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/victorl1m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="victorl1m" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=victorl1m&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
-<h3 align="left">Principais ferramentas:</h3>
-<p align="left"> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+<h1 align="center">🚀 Victor Lima • Full Stack Developer</h1>
 
+<p align="center" style="font-size:1.2em;">
+  <b>Desenvolvendo soluções completas: do backend ao frontend, com paixão por experiência do usuário e inovação.</b>
+</p>
 
-<p align="left"><img src="https://github-readme-streak-stats.herokuapp.com/?user=victorl1m&theme=github-dark&hide_border=true" alt="victorl1m" /></p>
+---
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=victorl1m&theme=github-dark&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+---
+
+<h2 align="left">Sobre mim</h2>
+
+<ul>
+  <li>💡 <b>O que faço:</b> Análise de Dados, RPA & Desenvolvimento Full Stack</li>
+  <li>🌱 <b>Aprendendo agora:</b> UX Design, React Native, TypeScript, Node.js</li>
+  <li>🛠 <b>Gosto de unir backend robusto com frontend elegante</b></li>
+  <li>✉️ <b>Contato:</b> <a href="mailto:victorl1ma@hotmail.com">victorl1ma@hotmail.com</a></li>
+</ul>
+
+---
+
+<h2 align="left">Tecnologias &amp; Ferramentas</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="38"/><br/>Figma
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="38"/><br/>JavaScript
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="38"/><br/>TypeScript
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="38"/><br/>React & React Native
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="38"/><br/>Node.js
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="38"/><br/>Python
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="38"/><br/>PostgreSQL
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="38"/><br/>Docker
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 align="left">Conecte-se comigo</h2>
+
+<p align="left">
+  <a href="https://twitter.com/trackedby1" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" width="32"/>
+    Twitter
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://linkedin.com/in/victorl1m" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="32"/>
+    LinkedIn
+  </a>
+</p>
