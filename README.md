@@ -22,7 +22,7 @@
   <li>💡 <b>O que faço:</b> Análise de Dados, RPA & Desenvolvimento Full Stack</li>
   <li>🌱 <b>Aprendendo agora:</b> UX Design, React Native, TypeScript, Node.js</li>
   <li>🛠 <b>Gosto de unir backend robusto com frontend elegante</b></li>
-  <li>✉️ <b>Contato:</b> <a href="mailto:victorl1ma@hotmail.com">victorl1ma@hotmail.com</a></li>
+  <li>✉️ <b>Contato:</b> <a href="mailto:victor@l1ma.com">victorl1ma@hotmail.com</a></li>
 </ul>
 
 ---
