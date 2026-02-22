@@ -144,7 +144,7 @@ I'm a full-stack developer specializing in **business automation**, **real-time 
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/Twitter-@trackedby1-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/limaaasds)
+[![Twitter](https://img.shields.io/badge/Twitter-@limaaasds-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/limaaasds)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-victorl1m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/victorl1m)
 [![Email](https://img.shields.io/badge/Email-victor%40l1ma.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victor@l1ma.com)
 
