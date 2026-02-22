@@ -33,7 +33,7 @@ I'm a full-stack developer specializing in **business automation**, **real-time 
 - **🤖 Robotic Process Automation (RPA)** – Streamlining business workflows with intelligent automation
 - **💾 Invoice & Fiscal Document Processing** – NFS-e, NFe, CTe integration and management systems
 - **🔄 Real-time AI Integration** – LLM embeddings, vision models, and avatar technology
-- **📦 SaaS Product Development** – Currently building **SolutionsLucy**: An inventory management system with integrated POS
+- **📦 SaaS Product Development** – Currently building **StockAge**: An inventory management system with integrated POS
 - **⚡ Backend Optimization** – Database tuning, API performance, cost optimization for scale
 
 ---
