@@ -1,5 +1,5 @@
 // Builds the animated ASCII SVGs for the profile README. No dependencies: node scripts/build.mjs
-// scripts/portrait.json is the avatar sampled to a 76x38 pixel grid (one pixel per character cell).
+// scripts/portrait.json is the profile photo sampled to a 76x38 pixel grid (one pixel per character cell).
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -41,26 +41,35 @@ function hero() {
   out.push(`<text x="28" y="62" font-size="14" fill="${C.text}" xml:space="preserve" textLength="${n(cmd.length * cell)}" ${cp}><tspan fill="${C.green}">$</tspan>${esc(cmd.slice(1))}</text>`);
 
   // portrait: one <text> per row, colour runs as tspans
-  // 1. classify cells. The photo's background is foliage (green) and a sofa (blue): key both out.
-  //    Dark neutral cells are hair only inside an ellipse around the head; elsewhere they are shadow.
+  // 1. classify cells. The portrait sits on a dark studio backdrop whose brightness falls between
+  //    the hair and shirt (darker) and the skin (brighter), so the backdrop is the middle band.
+  //    The backdrop is also warm (brown), while the black shirt is neutral, which separates those two.
   const at = (x, y) => { const i = (y * g.cols + x) * 4; return [g.rgba[i], g.rgba[i + 1], g.rgba[i + 2]]; };
   const lum = ([r, gg, b]) => (0.2126 * r + 0.7152 * gg + 0.0722 * b) / 255;
-  const on = [];
-  for (let y = 0; y < g.rows; y++) for (let x = 0; x < g.cols; x++) {
-    const [r, gg, b] = at(x, y), l = lum([r, gg, b]);
-    const bg = (gg > r + 4 && gg >= b - 2) || b > r + 8;
-    const inHead = ((x - 41) / 17.5) ** 2 + ((y - 6) / 7.5) ** 2 <= 1;
-    on.push(!bg && (l >= 0.2 || inHead));
-  }
-  // 2. keep only the connected shape that contains the person (seed: the chest)
-  const keep = new Uint8Array(on.length), stack = [[42, 30]];
+  const N = g.cols * g.rows, band = new Uint8Array(N);
+  for (let y = 0; y < g.rows; y++) for (let x = 0; x < g.cols; x++) { const [r, gg, b] = at(x, y), l = lum([r, gg, b]); band[y * g.cols + x] = l >= 0.085 && l < 0.26 && r - b >= 6 ? 1 : 0; }
+  // 2. the backdrop is the part of that band reachable from the top and side edges; band cells
+  //    enclosed by the figure (shadowed skin) stay part of the person
+  const bgc = new Uint8Array(N), stack = [];
+  for (let x = 0; x < g.cols; x++) stack.push([x, 0]);
+  for (let y = 0; y < 30; y++) stack.push([0, y], [g.cols - 1, y]);
   while (stack.length) {
     const [x, y] = stack.pop();
     if (x < 0 || y < 0 || x >= g.cols || y >= g.rows) continue;
     const k = y * g.cols + x;
-    if (keep[k] || !on[k]) continue;
+    if (bgc[k] || !band[k]) continue;
+    bgc[k] = 1;
+    stack.push([x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]);
+  }
+  //    then keep only the shape connected to the face, which drops stray specks
+  const keep = new Uint8Array(N); stack.push([30, 12]);
+  while (stack.length) {
+    const [x, y] = stack.pop();
+    if (x < 0 || y < 0 || x >= g.cols || y >= g.rows) continue;
+    const k = y * g.cols + x;
+    if (keep[k] || bgc[k]) continue;
     keep[k] = 1;
-    for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) stack.push([x + dx, y + dy]);
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) if (dx || dy) stack.push([x + dx, y + dy]);
   }
   // 3. characters and colours
   const rows = [];
@@ -68,7 +77,7 @@ function hero() {
     let runs = [], cur = null;
     for (let x = 0; x < g.cols; x++) {
       const [r, gg, b] = at(x, y), l = lum([r, gg, b]);
-      const t = Math.pow(Math.max(0, Math.min(1, (l - 0.06) / 0.86)), 0.85);
+      const t = Math.pow(Math.max(0, Math.min(1, (l - 0.04) / 0.62)), 0.8);
       const ch = keep[y * g.cols + x] ? ramp[Math.max(4, Math.min(ramp.length - 1, Math.floor(t * ramp.length)))] : ' ';
       // lift the colour so characters stay visible on the dark background, then quantize
       const lift = (v) => Math.min(255, Math.round((v * 1.2 + 52) / 17) * 17);
