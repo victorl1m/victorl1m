@@ -1,159 +1,89 @@
-# 🚀 Victor Lima • Full Stack Developer & SaaS Founder
-
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=victorl1m&label=Profile%20views&color=0e75b6&style=flat)
-![GitHub followers](https://img.shields.io/github/followers/victorl1m?style=social)
-
-### _Building scalable solutions from backend to frontend_
-
-**Business Automation • Real-time AI • Full-Stack Development**
-
-</div>
-
----
-
-<div align="center">
-
-```diff
-+ Automation & RPA
-+ Invoice & Fiscal Systems  
-+ AI/LLM Integration
-+ SaaS Products
+```text
+██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗     ██╗     ██╗███╗   ███╗ █████╗ 
+██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗    ██║     ██║████╗ ████║██╔══██╗
+██║   ██║██║██║        ██║   ██║   ██║██████╔╝    ██║     ██║██╔████╔██║███████║
+╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗    ██║     ██║██║╚██╔╝██║██╔══██║
+ ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║    ███████╗██║██║ ╚═╝ ██║██║  ██║
+  ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝    ╚══════╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
 ```
 
-</div>
+**Full-stack developer and SaaS founder. I build tools for AI coding agents and automation for real businesses.**
 
----
-
-## 💼 What I Do
-
-I'm a full-stack developer specializing in **business automation**, **real-time AI integration**, and **SaaS product development**. My focus is on building robust backend systems paired with elegant frontends, with a deep expertise in:
-
-- **🤖 Robotic Process Automation (RPA)** – Streamlining business workflows with intelligent automation
-- **💾 Invoice & Fiscal Document Processing** – NFS-e, NFe, CTe integration and management systems
-- **🔄 Real-time AI Integration** – LLM embeddings, vision models, and avatar technology
-- **📦 SaaS Product Development** – Currently building **StockAge**: An inventory management system with integrated POS
-- **⚡ Backend Optimization** – Database tuning, API performance, cost optimization for scale
-
----
-
-## 🛠 Tech Stack
-
-### Languages & Frameworks
-<div align="center">
-
-| | | | | |
-|:-:|:-:|:-:|:-:|:-:|
-| [![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) **JavaScript** | [![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg)](https://www.typescriptlang.org/) **TypeScript** | [![Node.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)](https://nodejs.org) **Node.js** | [![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)](https://react.dev) **React** | [![Next.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg)](https://nextjs.org) **Next.js** |
-| [![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)](https://www.python.org/) **Python** | [![Bash](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg)](https://www.gnu.org/software/bash/) **Bash** | [![SQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg)](https://www.mysql.com/) **SQL** | | |
+[LinkedIn](https://linkedin.com/in/victorl1m) · [Email](mailto:victor@l1ma.com) · [X](https://twitter.com/limaaasds) · [Floq](https://floq.flowless.app)
 
 </div>
 
-### Databases & Data Tools
-<div align="center">
+```text
+   ▄██████████▄       victor@github
+ ▄██████████████▄     ─────────────────────────────────────────────────────
+ ████  ████  ████     role       Full-stack developer, SaaS founder
+ ████  ████  ████     based      Uberaba, Brazil
+ ████████████████     building   Floq, a desktop canvas for AI coding agents
+ ████████████████     languages  TypeScript · Rust · Python · Dart · SQL
+ ▀██████████████▀     frontend   React · Next.js · Tauri · Tailwind
+   ▀██████████▀       backend    Node.js · PostgreSQL · MySQL · Redis
+                      infra      Docker · Linux · GCP · self-hosted
+```
 
-| | | | | |
-|:-:|:-:|:-:|:-:|:-:|
-| [![MySQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg)](https://www.mysql.com/) **MySQL** | [![PostgreSQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg)](https://www.postgresql.org/) **PostgreSQL** | [![Redis](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg)](https://redis.io/) **Redis** | [![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg)](https://www.mongodb.com/) **MongoDB** | |
+## Now building: Floq
 
-</div>
+**A desktop workspace for running Claude Code and Codex agents on a server you host.** You start agents in cloud terminals, arrange them on a canvas with notes and wires, and they keep working after you close the laptop. Lead agents recruit subagents, message each other, and stop to ask for your approval before anything irreversible such as a push, a merge or a deploy.
 
-### DevOps & Tools
-<div align="center">
+```text
+  ┌────────────────────────────────────────┐
+  │  Floq app   Tauri 2 · React 19 · Rust  │
+  └───────────────────┬────────────────────┘
+                      │  HTTPS + WebSocket
+  ┌───────────────────▼────────────────────┐      ┌──────────────┐
+  │  Runtime    Node.js · node-pty · ws    ├──────┤  PostgreSQL  │
+  └───────────────────┬────────────────────┘      └──────────────┘
+                      │  one sandbox per user and session
+  ┌───────────────────▼────────────────────┐
+  │  bubblewrap sandbox · encrypted home   │──▶  claude / codex CLI
+  └────────────────────────────────────────┘
+```
 
-| | | | | |
-|:-:|:-:|:-:|:-:|:-:|
-| [![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg)](https://www.docker.com/) **Docker** | [![GitLab](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg)](https://gitlab.com/) **GitLab** | [![VS Code](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg)](https://code.visualstudio.com/) **VS Code** | [![Linux](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg)](https://www.linux.org/) **Linux** | [![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg)](https://git-scm.com/) **Git** |
+What I designed and built, end to end:
 
-</div>
+- **Desktop app.** Tauri 2 shell in Rust, React 19 interface, a node canvas, xterm.js terminals streamed over WebSocket, light and dark themes.
+- **Self-hosted runtime.** Node.js and TypeScript server with auth, organizations and roles, PTY sessions that sleep and resume, and PostgreSQL for state.
+- **Isolation and secrets.** Each user gets a gocryptfs-encrypted home and an unprivileged bubblewrap sandbox. Credentials and vault secrets are encrypted with AES-256-GCM.
+- **Agent orchestration.** A CLI protocol for agents to recruit, message and hand off work, with human approval gates and configurable limits.
+- **Quality.** About 80k lines of TypeScript and 3k of Rust, 900+ runtime tests, a Playwright end-to-end suite, Rust unit tests, CI builds and written release notes for every version.
 
-### Specialized Tools & Platforms
-<div align="center">
+Status: v1.0.5, pre-release. The main repository is private for now and I am glad to walk through the code. The plugin ecosystem is public: [floq-plugins](https://github.com/victorl1m/floq-plugins) (catalog), [WAHA](https://github.com/victorl1m/floq-plugin-waha), [Azure DevOps](https://github.com/victorl1m/floq-plugin-azure-devops), [Movidesk](https://github.com/victorl1m/floq-plugin-movidesk).
 
-| | | | |
-|:-:|:-:|:-:|:-:|
-| **N8N** – Workflow Automation | **Coolify** – Self-hosting | **GCP** – Cloud Infrastructure | **Hostinger VPS** – Deployment |
+## Other work
 
-</div>
+| Project | What it is | Stack |
+|---|---|---|
+| [Reader](https://github.com/victorl1m/Reader) | Manga and comic reader that runs entirely in the browser. Opens `.cbr` and `.cbz` files and never uploads them. [Live demo](https://m-reader-xi.vercel.app) | Next.js, React, TypeScript, PWA |
+| StockAge | Inventory management with an integrated point of sale | TypeScript |
+| Fiscal automation | Brazilian invoice and fiscal document systems (NFe, NFS-e, CTe) and RPA for business workflows | Node.js, Python, SQL |
+| Real-time AI | LLM integrations with embeddings, vision models and avatar technology | Python, TypeScript |
 
----
+## What I'm good at
 
-## 🎯 Core Competencies
+```text
+  backend      API design, database tuning (PostgreSQL, MySQL), real-time
+               streaming, auth and security
+  frontend     product UI in React and Next.js, desktop apps with Tauri
+  automation   RPA, n8n workflows, fiscal document processing
+  ai           agent orchestration, LLM integration, embeddings and
+               vector search
+  ops          Docker, Linux, self-hosting (Coolify, Dokploy), cost control
+```
 
-<table>
-<tr>
-<td valign="top" width="50%">
+## Get in touch
 
-### Backend Development
-- RESTful API design & optimization
-- Database performance tuning (MySQL, PostgreSQL)
-- Real-time data processing
-- Microservices architecture
-- Authentication & security
+I'm open to conversations about full-stack and AI tooling roles.
 
-</td>
-<td valign="top" width="50%">
-
-### Full-Stack Solutions
-- End-to-end product development
-- UI/UX implementation
-- Infrastructure automation
-- Cost optimization strategies
-- Deployment & scaling
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-### Automation & AI
-- RPA implementation
-- LLM integration & prompt engineering
-- Vector databases & embeddings
-- Real-time avatar technology
-- Workflow automation (N8N)
-
-</td>
-<td valign="top" width="50%">
-
-### Domain Expertise
-- Invoice & fiscal document systems (NFe, NFS-e, CTe)
-- POS & inventory management
-- Business process optimization
-- Real-time streaming APIs
-- Cost-effective infrastructure
-
-</td>
-</tr>
-</table>
-
----
-
-## 🌱 Currently Learning & Exploring
-
-- Advanced real-time avatar technology (Tavus, Hedra, HeyGen)
-- Cost optimization for large-scale LLM deployments
-- Vector database optimization (DragonFly, Redis)
-- AI agent architecture & orchestration
-- Advanced SQL optimization techniques
-
----
-
-## 📫 Connect with Me
-
-<div align="center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-@limaaasds-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/limaaasds)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-victorl1m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/victorl1m)
-[![Email](https://img.shields.io/badge/Email-victor%40l1ma.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victor@l1ma.com)
-
-</div>
-
----
-
-<div align="center">
-
-**⭐ If you find my work interesting, feel free to star my repositories and connect with me!**
-
-</div>
+```text
+  ┌─────────────────────────────────────────────┐
+  │  mail      victor@l1ma.com                  │
+  │  linkedin  linkedin.com/in/victorl1m        │
+  │  x         @limaaasds                       │
+  └─────────────────────────────────────────────┘
+```
