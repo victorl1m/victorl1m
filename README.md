@@ -10,7 +10,7 @@
   <a href="https://twitter.com/limaaasds"><img src="https://img.shields.io/badge/X-limaaasds-0b0e14?style=for-the-badge&logo=x&logoColor=ff8a4c&labelColor=131722" alt="X"></a>
 </p>
 
-I'm a full-stack developer and SaaS founder from Uberaba, Brazil. I build tools for AI coding agents and automation for real businesses, from the database to the desktop app.
+I'm a full-stack developer and SaaS founder from Uberaba, Brazil. I build two products, [Floq](#now-building-floq) and [Flowless](#also-building-flowless), and I work across the whole stack: Node.js and Python backends, React frontends, and desktop apps in Rust.
 
 ## Now building: Floq
 
@@ -29,6 +29,14 @@ I designed and built all of it:
 - **Quality:** about 80k lines of TypeScript and 3k of Rust, 900+ runtime tests, a Playwright end-to-end suite, CI builds and release notes for every version.
 
 The main repository is private while Floq is in pre-release (v1.0.5), and I'm glad to walk through the code. The plugins are public: [catalog](https://github.com/victorl1m/floq-plugins), [WAHA](https://github.com/victorl1m/floq-plugin-waha), [Azure DevOps](https://github.com/victorl1m/floq-plugin-azure-devops), [Movidesk](https://github.com/victorl1m/floq-plugin-movidesk).
+
+## Also building: Flowless
+
+**[Flowless](https://flowless.app) is one app for what a small business usually spreads across five tools.** AI agents answer customers on WhatsApp and read the company's own documents before replying. A creation studio generates images, 3D and video. A point of sale, catalog and finance module runs the day to day. Each organization picks a segment when it is created, and the segment decides which modules appear.
+
+- **Frontend:** Next.js 16, React 19, TypeScript, Tailwind 4, three.js, installable as a PWA.
+- **Backend:** Python 3.12 with FastAPI, PostgreSQL, Redis, and Qdrant for vector search over the knowledge base.
+- **Product:** multi-company, with payments, and live at [flowless.app](https://flowless.app).
 
 ## Other work
 

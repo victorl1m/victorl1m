@@ -93,10 +93,10 @@ function hero() {
     ['name', 'Victor Lima'],
     ['role', 'Full-stack developer · SaaS founder'],
     ['based', 'Uberaba, Brazil'],
-    ['building', 'Floq · a canvas for AI coding agents'],
+    ['building', 'Floq (agent canvas) · Flowless (AI for SMBs)'],
     ['langs', 'TypeScript · Rust · Python · Dart · SQL'],
     ['frontend', 'React · Next.js · Tauri · Tailwind'],
-    ['backend', 'Node.js · PostgreSQL · MySQL · Redis'],
+    ['backend', 'Node.js · Python · FastAPI · PostgreSQL · Redis'],
     ['infra', 'Docker · Linux · GCP · self-hosted'],
     ['ai', 'agent orchestration · LLMs · embeddings'],
     ['contact', 'victor@l1ma.com'],
@@ -121,17 +121,18 @@ function hero() {
   const by = 484, bx = 28 + 2 * cell;
   out.push(`<line x1="28" y1="456" x2="${W - 28}" y2="456" stroke="${C.line}"/>`);
   out.push(`<text x="28" y="${by}" font-size="14" fill="${C.green}">$</text>`);
-  const phrases = ['building Floq, a desktop canvas for AI coding agents', 'automating invoices and fiscal workflows for real businesses', 'open to full-stack and AI tooling roles · say hi'];
-  const cyc = 13.5, kx = [], kt = [];
+  const phrases = ['building Floq, a desktop canvas for AI coding agents', 'building Flowless, AI agents on WhatsApp for small businesses', 'automating invoices and fiscal workflows for real businesses', 'open to full-stack and AI tooling roles · say hi'];
+  const span = 1 / phrases.length, cyc = 4.5 * phrases.length, kx = [], kt = [];
   phrases.forEach((p, i) => {
     const a = i / phrases.length, w = p.length * cell, id = `p${i}`;
-    const times = [0, a, a + 0.11, a + 0.3, a + 0.325, 1].map(n).join(';');
+    const t1 = a + span * 0.33, t2 = a + span * 0.9, t3 = a + span * 0.97;
+    const times = [0, a, t1, t2, t3, 1].map((v) => +v.toFixed(4)).join(';');
     defs.push(`<clipPath id="${id}"><rect x="${n(bx)}" y="${by - 16}" width="0" height="22"><animate attributeName="width" values="0;0;${n(w)};${n(w)};0;0" keyTimes="${times}" begin="4s" dur="${cyc}s" repeatCount="indefinite"/></rect></clipPath>`);
     out.push(`<text x="${n(bx)}" y="${by}" font-size="14" fill="${C.text}" xml:space="preserve" textLength="${n(w)}" clip-path="url(#${id})">${esc(p)}</text>`);
-    kx.push(bx, bx + w, bx + w, bx); kt.push(a, a + 0.11, a + 0.3, a + 0.325);
+    kx.push(bx, bx + w, bx + w, bx); kt.push(a, t1, t2, t3);
   });
   kx.push(bx); kt.push(1);
-  out.push(`<rect x="${n(bx)}" y="${by - 13}" width="8" height="16" fill="${C.accent}"><animate attributeName="x" values="${kx.map(n).join(';')}" keyTimes="${kt.map(n).join(';')}" begin="4s" dur="${cyc}s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>`);
+  out.push(`<rect x="${n(bx)}" y="${by - 13}" width="8" height="16" fill="${C.accent}"><animate attributeName="x" values="${kx.map(n).join(';')}" keyTimes="${kt.map((v) => +v.toFixed(4)).join(';')}" begin="4s" dur="${cyc}s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>`);
 
   return `${svgOpen(W, H, 'Terminal running neofetch: an ASCII portrait of Victor Lima next to his role, stack and contact')}\n<defs>${defs.join('')}</defs>\n${out.join('\n')}\n</svg>\n`;
 }
