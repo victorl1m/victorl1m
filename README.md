@@ -1,59 +1,34 @@
 <div align="center">
-
-```text
-██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗     ██╗     ██╗███╗   ███╗ █████╗ 
-██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗    ██║     ██║████╗ ████║██╔══██╗
-██║   ██║██║██║        ██║   ██║   ██║██████╔╝    ██║     ██║██╔████╔██║███████║
-╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗    ██║     ██║██║╚██╔╝██║██╔══██║
- ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║    ███████╗██║██║ ╚═╝ ██║██║  ██║
-  ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝    ╚══════╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
-```
-
-**Full-stack developer and SaaS founder. I build tools for AI coding agents and automation for real businesses.**
-
-[LinkedIn](https://linkedin.com/in/victorl1m) · [Email](mailto:victor@l1ma.com) · [X](https://twitter.com/limaaasds) · [Floq](https://floq.flowless.app)
-
+  <a href="https://github.com/victorl1m">
+    <img src="assets/hero.svg" width="100%" alt="Terminal running neofetch: an ASCII portrait of Victor Lima typing itself out next to his role, stack and contact">
+  </a>
 </div>
 
-```text
-   ▄██████████▄       victor@github
- ▄██████████████▄     ─────────────────────────────────────────────────────
- ████  ████  ████     role       Full-stack developer, SaaS founder
- ████  ████  ████     based      Uberaba, Brazil
- ████████████████     building   Floq, a desktop canvas for AI coding agents
- ████████████████     languages  TypeScript · Rust · Python · Dart · SQL
- ▀██████████████▀     frontend   React · Next.js · Tauri · Tailwind
-   ▀██████████▀       backend    Node.js · PostgreSQL · MySQL · Redis
-                      infra      Docker · Linux · GCP · self-hosted
-```
+<p align="center">
+  <a href="https://linkedin.com/in/victorl1m"><img src="https://img.shields.io/badge/LinkedIn-victorl1m-0b0e14?style=for-the-badge&logo=linkedin&logoColor=ff8a4c&labelColor=131722" alt="LinkedIn"></a>
+  <a href="mailto:victor@l1ma.com"><img src="https://img.shields.io/badge/Email-victor%40l1ma.com-0b0e14?style=for-the-badge&logo=maildotru&logoColor=ff8a4c&labelColor=131722" alt="Email"></a>
+  <a href="https://twitter.com/limaaasds"><img src="https://img.shields.io/badge/X-limaaasds-0b0e14?style=for-the-badge&logo=x&logoColor=ff8a4c&labelColor=131722" alt="X"></a>
+</p>
+
+I'm a full-stack developer and SaaS founder from Uberaba, Brazil. I build tools for AI coding agents and automation for real businesses, from the database to the desktop app.
 
 ## Now building: Floq
 
-**A desktop workspace for running Claude Code and Codex agents on a server you host.** You start agents in cloud terminals, arrange them on a canvas with notes and wires, and they keep working after you close the laptop. Lead agents recruit subagents, message each other, and stop to ask for your approval before anything irreversible such as a push, a merge or a deploy.
+<div align="center">
+  <img src="assets/floq.svg" width="100%" alt="Floq architecture: desktop app, self-hosted runtime with PostgreSQL, sandboxed agent CLIs, and a terminal listing running agents and an approval request">
+</div>
 
-```text
-  ┌────────────────────────────────────────┐
-  │  Floq app   Tauri 2 · React 19 · Rust  │
-  └───────────────────┬────────────────────┘
-                      │  HTTPS + WebSocket
-  ┌───────────────────▼────────────────────┐      ┌──────────────┐
-  │  Runtime    Node.js · node-pty · ws    ├──────┤  PostgreSQL  │
-  └───────────────────┬────────────────────┘      └──────────────┘
-                      │  one sandbox per user and session
-  ┌───────────────────▼────────────────────┐
-  │  bubblewrap sandbox · encrypted home   │──▶  claude / codex CLI
-  └────────────────────────────────────────┘
-```
+**A desktop workspace for running Claude Code and Codex agents on a server you host.** You start agents in cloud terminals, arrange them on a canvas with notes and wires, and they keep working after you close the laptop. Lead agents recruit subagents, message each other, and stop to ask for your approval before anything irreversible.
 
-What I designed and built, end to end:
+I designed and built all of it:
 
-- **Desktop app.** Tauri 2 shell in Rust, React 19 interface, a node canvas, xterm.js terminals streamed over WebSocket, light and dark themes.
-- **Self-hosted runtime.** Node.js and TypeScript server with auth, organizations and roles, PTY sessions that sleep and resume, and PostgreSQL for state.
-- **Isolation and secrets.** Each user gets a gocryptfs-encrypted home and an unprivileged bubblewrap sandbox. Credentials and vault secrets are encrypted with AES-256-GCM.
-- **Agent orchestration.** A CLI protocol for agents to recruit, message and hand off work, with human approval gates and configurable limits.
-- **Quality.** About 80k lines of TypeScript and 3k of Rust, 900+ runtime tests, a Playwright end-to-end suite, Rust unit tests, CI builds and written release notes for every version.
+- **Desktop app:** Tauri 2 shell in Rust, React 19 interface, a node canvas, xterm.js terminals streamed over WebSocket.
+- **Self-hosted runtime:** Node.js and TypeScript server with auth, organizations and roles, PTY sessions that sleep and resume, PostgreSQL for state.
+- **Isolation and secrets:** a gocryptfs-encrypted home and an unprivileged bubblewrap sandbox per user, AES-256-GCM for credentials and vault secrets.
+- **Agent orchestration:** a CLI protocol for agents to recruit, message and hand off work, with human approval gates.
+- **Quality:** about 80k lines of TypeScript and 3k of Rust, 900+ runtime tests, a Playwright end-to-end suite, CI builds and release notes for every version.
 
-Status: v1.0.5, pre-release. The main repository is private for now and I am glad to walk through the code. The plugin ecosystem is public: [floq-plugins](https://github.com/victorl1m/floq-plugins) (catalog), [WAHA](https://github.com/victorl1m/floq-plugin-waha), [Azure DevOps](https://github.com/victorl1m/floq-plugin-azure-devops), [Movidesk](https://github.com/victorl1m/floq-plugin-movidesk).
+The main repository is private while Floq is in pre-release (v1.0.5), and I'm glad to walk through the code. The plugins are public: [catalog](https://github.com/victorl1m/floq-plugins), [WAHA](https://github.com/victorl1m/floq-plugin-waha), [Azure DevOps](https://github.com/victorl1m/floq-plugin-azure-devops), [Movidesk](https://github.com/victorl1m/floq-plugin-movidesk).
 
 ## Other work
 
@@ -64,26 +39,8 @@ Status: v1.0.5, pre-release. The main repository is private for now and I am gla
 | Fiscal automation | Brazilian invoice and fiscal document systems (NFe, NFS-e, CTe) and RPA for business workflows | Node.js, Python, SQL |
 | Real-time AI | LLM integrations with embeddings, vision models and avatar technology | Python, TypeScript |
 
-## What I'm good at
-
-```text
-  backend      API design, database tuning (PostgreSQL, MySQL), real-time
-               streaming, auth and security
-  frontend     product UI in React and Next.js, desktop apps with Tauri
-  automation   RPA, n8n workflows, fiscal document processing
-  ai           agent orchestration, LLM integration, embeddings and
-               vector search
-  ops          Docker, Linux, self-hosting (Coolify, Dokploy), cost control
-```
-
 ## Get in touch
 
-I'm open to conversations about full-stack and AI tooling roles.
+I'm open to conversations about full-stack and AI tooling roles: [victor@l1ma.com](mailto:victor@l1ma.com) or [LinkedIn](https://linkedin.com/in/victorl1m).
 
-```text
-  ┌─────────────────────────────────────────────┐
-  │  mail      victor@l1ma.com                  │
-  │  linkedin  linkedin.com/in/victorl1m        │
-  │  x         @limaaasds                       │
-  └─────────────────────────────────────────────┘
-```
+<sub>The terminals above are self-contained animated SVGs, built by <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> with no dependencies and no third-party services.</sub>
